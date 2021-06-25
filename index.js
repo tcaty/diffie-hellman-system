@@ -1,4 +1,4 @@
-class FastExponationAlgorithms {
+class ModuloFastExponentiationAlgorithms {
 
   fromRightToLeft = (a, b, n) => {
     const reversedBinaryB = this._reverseString(b.toString(2));
@@ -25,7 +25,7 @@ class FastExponationAlgorithms {
   }
 
   //I can't find the name of this algorithm :(
-  fastExponationAlgorithm = (a, b, n) => {
+  moduloFastExponentiationAlgorithm = (a, b, n) => {
     const binaryB = b.toString(2);
     const res = new Array(binaryB.length);
     res[0] = a;
@@ -39,7 +39,7 @@ class FastExponationAlgorithms {
 
 }
 
-class DiffieHellmanSystemMember extends FastExponationAlgorithms {
+class DiffieHellmanSystemMember extends ModuloFastExponentiationAlgorithms {
   
   constructor(privateKey) {
     super();
@@ -101,7 +101,7 @@ class DiffieHellmanSystem {
   }
 }
 
-class Hacker extends FastExponationAlgorithms {
+class Hacker extends ModuloFastExponentiationAlgorithms {
 
   generatePrivateSystemKey = (p, g, publicMemberKey, anotherMemberPublicKey) => {
     const privateMemberKey = this._babyStepGiantStep(p, g, publicMemberKey); 
