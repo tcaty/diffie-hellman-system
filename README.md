@@ -8,9 +8,9 @@ Nesting scheme of program classes
 ![dhsys2](https://user-images.githubusercontent.com/79706809/123479110-16c52280-d609-11eb-843e-3b21c0241281.png)
 
 
-It is very important to choose correct numbers p, g to create DH System, cause in this case Hacker can wrong calculate private system key and he can't decrypt the message.
+It is very important to choose correct numbers to create DH System, cause in this case Hacker can wrong calculate private system key and he can't decrypt the message.
 
-![image](https://user-images.githubusercontent.com/79706809/123480718-715f7e00-d60b-11eb-99bf-d95555ffdacd.png)
+![image](https://user-images.githubusercontent.com/79706809/123481623-ab7d4f80-d60c-11eb-916b-98a8056702d7.png)
 
 
 Result
@@ -19,7 +19,7 @@ Result
 
 
 
-If at least one inequality will be false, DH System becomes more vulnerable and Hacker can calculate private system key.
+If at least one condition will be false, DH System becomes more vulnerable and Hacker can calculate private system key.
 
 ![image](https://user-images.githubusercontent.com/79706809/123481204-11b5a280-d60c-11eb-99d8-07e3e6d7cbea.png)
 
